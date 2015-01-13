@@ -1,0 +1,24 @@
+12-31 23:28:44 jdbc[159]: SQLException
+org.h2.jdbc.JdbcSQLException: Value too long for column "PHONE VARCHAR(15)": "'01311234567sfsdf' (16)"; SQL statement:
+UPDATE USERS
+SET TITLE = ?
+,   FIRSTNAME = ?
+,   LASTNAME = ?
+,   DOB = ?
+,   EMAIL = ?
+,   PHONE = ?
+,   MOBILE = ?
+,   GENDER = ?
+WHERE  ( ( USERNAME = ?  ) )  [90005-131]
+12-31 23:36:48 jdbc[165]: SQLException
+org.h2.jdbc.JdbcSQLException: Value too long for column "PHONE VARCHAR(15)": "'01311234567sfsdf' (16)"; SQL statement:
+UPDATE USERS
+SET TITLE = ?
+,   FIRSTNAME = ?
+,   LASTNAME = ?
+,   DOB = ?
+,   EMAIL = ?
+,   PHONE = ?
+,   MOBILE = ?
+,   GENDER = ?
+WHERE  ( ( USERNAME = ?  ) )  [90005-131]

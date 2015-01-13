@@ -1,0 +1,279 @@
+{
+ "layout": {
+  "title": "manageUsers",
+  "rows": [
+   {
+    "id": "96b84299-d4ff-8030-1d93-1d718710a545",
+    "type": "LayoutResourceCode",
+    "typeDesc": "Resource",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "value": "opts",
+      "type": "Id"
+     },
+     {
+      "name": "resourceType",
+      "value": "Javascript",
+      "type": "Label"
+     },
+     {
+      "name": "resourceCode",
+      "value": "var dashboardProperties = {\n    name: \"Manage Users\",\n    mainTitle: \"Manage Users\"\n}; ",
+      "type": "Resource"
+     }
+    ]
+   },
+   {
+    "id": "b5359c6d-b2d3-7290-8a6c-86dd8b5583cf",
+    "type": "LayoutRow",
+    "typeDesc": "Row",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "value": "USERS",
+      "type": "Id"
+     },
+     {
+      "name": "height",
+      "value": "500",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   }
+  ]
+ },
+ "components": {
+  "rows": [
+   {
+    "id": "IVYISBOOTSTRAP",
+    "name": "Ivy IS Bootstrap",
+    "type": "Label",
+    "typeDesc": "<i>Group</i>",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "Group",
+      "value": "Ivy IS Bootstrap",
+      "type": "Label"
+     }
+    ]
+   },
+   {
+    "id": "4f99c9ab-ecfc-e7b6-8809-4b04ae72cc1c",
+    "type": "ComponentsBSTableComponent",
+    "typeDesc": "Bootstrap Table",
+    "parent": "IVYISBOOTSTRAP",
+    "properties": [
+     {
+      "name": "name",
+      "value": "TABLE_USERS",
+      "type": "Id"
+     },
+     {
+      "name": "parameter",
+      "value": "",
+      "type": "Parameter"
+     },
+     {
+      "name": "listeners",
+      "value": "[]",
+      "type": "Listeners"
+     },
+     {
+      "name": "colFormats",
+      "value": "[]",
+      "type": "Array"
+     },
+     {
+      "name": "colWidths",
+      "value": "[]",
+      "type": "Array"
+     },
+     {
+      "name": "colHeaders",
+      "value": "[]",
+      "type": "Array"
+     },
+     {
+      "name": "parameters",
+      "value": "[]",
+      "type": "ValuesArray"
+     },
+     {
+      "name": "colTypes",
+      "value": "[]",
+      "type": "colTypesCustom"
+     },
+     {
+      "name": "dataSource",
+      "value": "getUserDetailsList",
+      "type": "Datasource"
+     },
+     {
+      "name": "refreshPeriod",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "priority",
+      "value": 5,
+      "type": "Integer"
+     },
+     {
+      "name": "tableResponsive",
+      "value": "true",
+      "type": "Boolean"
+     },
+     {
+      "name": "tableStriped",
+      "value": "false",
+      "type": "Boolean"
+     },
+     {
+      "name": "tableBordered",
+      "value": "false",
+      "type": "Boolean"
+     },
+     {
+      "name": "tableHover",
+      "value": "false",
+      "type": "Boolean"
+     },
+     {
+      "name": "tableCondensed",
+      "value": "false",
+      "type": "Boolean"
+     },
+     {
+      "name": "tablePaginate",
+      "value": "false",
+      "type": "Boolean"
+     },
+     {
+      "name": "tablePaginateShowPrevNext",
+      "value": "true",
+      "type": "Boolean"
+     },
+     {
+      "name": "tablePaginateHidePageNumbers",
+      "value": "false",
+      "type": "Boolean"
+     },
+     {
+      "name": "tablePaginateRowPerPage",
+      "value": 25,
+      "type": "Integer"
+     },
+     {
+      "name": "tableNumbersPerPage",
+      "value": 5,
+      "type": "Integer"
+     },
+     {
+      "name": "headerEnabled",
+      "value": "true",
+      "type": "Boolean"
+     },
+     {
+      "name": "htmlObject",
+      "value": "${p:USERS}",
+      "type": "HtmlObject"
+     },
+     {
+      "name": "executeAtStart",
+      "value": "true",
+      "type": "Boolean"
+     },
+     {
+      "name": "preExecution",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postExecution",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postFetch",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "clickAction",
+      "value": "",
+      "type": "JavaScript"
+     }
+    ]
+   }
+  ]
+ },
+ "datasources": {
+  "rows": [
+   {
+    "id": "IVYUD_CPKENDPOINTS",
+    "name": "IVYUD Endpoints",
+    "type": "Label",
+    "typeDesc": "<i>Group</i>",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "Group",
+      "value": "IVYUD Endpoints",
+      "type": "Label"
+     }
+    ]
+   },
+   {
+    "id": "1cb53267-b208-bb15-e798-1cc1acb46438",
+    "type": "ComponentsIvyUD_getUserDetailsList_CPKENDPOINT",
+    "typeDesc": "getUserDetailsList Endpoint",
+    "parent": "IVYUD_CPKENDPOINTS",
+    "properties": [
+     {
+      "name": "name",
+      "value": "getUserDetailsList",
+      "type": "Id"
+     },
+     {
+      "name": "stepName",
+      "value": "OUTPUT",
+      "type": "String"
+     },
+     {
+      "name": "kettleOutput",
+      "value": "Inferred",
+      "type": "kettleOutputCustom"
+     }
+    ],
+    "meta": "CPK",
+    "meta_pluginId": "IvyUD",
+    "meta_endpoint": "getUserDetailsList"
+   }
+  ]
+ },
+ "filename": "/system/IvyUD/dashboards/admin/manageUsers.cdfde"
+}

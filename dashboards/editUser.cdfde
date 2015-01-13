@@ -1,0 +1,1364 @@
+{
+ "layout": {
+  "title": "editUser",
+  "rows": [
+   {
+    "id": "74a2444d-5cb2-907d-8435-f35e6d7a9515",
+    "type": "LayoutResourceCode",
+    "typeDesc": "Resource",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "value": "opts",
+      "type": "Id"
+     },
+     {
+      "name": "resourceType",
+      "value": "Javascript",
+      "type": "Label"
+     },
+     {
+      "name": "resourceCode",
+      "value": "var dashboardProperties = {\n    name: \"Edit Details\",\n    mainTitle: \"Edit Details\"\n}; ",
+      "type": "Resource"
+     }
+    ]
+   },
+   {
+    "id": "98634433-26d0-77d4-3e26-37cf9fc3ad72",
+    "type": "LayoutRow",
+    "typeDesc": "Row",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "9d039573-b15a-52c5-3118-592c0b5ceab9",
+    "type": "LayoutBootstrapColumn",
+    "typeDesc": "Column",
+    "parent": "98634433-26d0-77d4-3e26-37cf9fc3ad72",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "bootstrapExtraSmall",
+      "value": "12",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapSmall",
+      "value": "12",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapMedium",
+      "value": "12",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapLarge",
+      "value": "12",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapCssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "height",
+      "value": "50",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "3dd6f1fb-5e58-6ad0-431e-de26c91c358c",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "9d039573-b15a-52c5-3118-592c0b5ceab9",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<div style =\"display:none\" id=\"loggedUser\"></div> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "097d7454-6279-ff48-cdbc-5f697f26d200",
+    "type": "LayoutRow",
+    "typeDesc": "Row",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "name",
+      "value": "FORM",
+      "type": "Id"
+     },
+     {
+      "name": "height",
+      "value": "450",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "bac42c5f-5d12-4e31-5184-94d170eb1f89",
+    "type": "LayoutBootstrapColumn",
+    "typeDesc": "Column",
+    "parent": "097d7454-6279-ff48-cdbc-5f697f26d200",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "bootstrapExtraSmall",
+      "value": "12",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapSmall",
+      "value": "12",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapMedium",
+      "value": "12",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapLarge",
+      "value": "12",
+      "type": "String"
+     },
+     {
+      "name": "bootstrapCssClass",
+      "value": "",
+      "type": "String"
+     },
+     {
+      "name": "height",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "backgroundColor",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "roundCorners",
+      "value": "",
+      "type": "RoundCorners"
+     },
+     {
+      "name": "textAlign",
+      "value": "",
+      "type": "TextAlign"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   },
+   {
+    "id": "9536b936-5110-5ab4-60ce-e958ed55c144",
+    "type": "LayoutHtml",
+    "typeDesc": "Html",
+    "parent": "bac42c5f-5d12-4e31-5184-94d170eb1f89",
+    "properties": [
+     {
+      "name": "name",
+      "value": "",
+      "type": "Id"
+     },
+     {
+      "name": "html",
+      "value": "<form class=\"form-horizontal\" role=\"form\">\n  <div class=\"form-group\">\n    <label for=\"\" class=\"col-md-2 control-label\">Name</label>\n    <div class=\"col-md-2\" id=\"TITLE\"></div>\n    <div class=\"col-md-4\" id=\"FIRSTNAME\"></div>\n    <div class=\"col-md-4\" id=\"LASTNAME\"></div>\n  </div>\n  <div class=\"form-group\">\n    <label for=\"\" class=\"col-md-2 control-label\">Gender</label>\n    <div class=\"col-md-2\" id=\"GENDER\"></div>\n    <label for=\"\" class=\"col-md-1 control-label\">Email</label>\n    <div class=\"col-md-7\" id=\"EMAIL\"></div>\n  </div>\n  <div class=\"form-group\">\n    <label for=\"\" class=\"col-md-2 control-label\">Office</label>\n    <div class=\"col-md-4\" id=\"PHONE\"></div>\n  </div>\n  <div class=\"form-group\">\n    <label for=\"\" class=\"col-md-2 control-label\">Mobile</label>\n    <div class=\"col-md-4\" id=\"MOBILE\"></div>\n  </div>\n  <div class=\"form-group\">\n    <div class=\"col-md-offset-2 col-md-2\" id=\"UPDATE\"></div>\n  </div>\n</form> ",
+      "type": "Html"
+     },
+     {
+      "name": "fontSize",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "color",
+      "value": "",
+      "type": "Color"
+     },
+     {
+      "name": "cssClass",
+      "value": "",
+      "type": "String"
+     }
+    ]
+   }
+  ]
+ },
+ "components": {
+  "rows": [
+   {
+    "id": "GENERIC",
+    "name": "Generic",
+    "type": "Label",
+    "typeDesc": "<i>Group</i>",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "Group",
+      "value": "Generic",
+      "type": "Label"
+     }
+    ]
+   },
+   {
+    "id": "666cc59f-16cd-b5c7-17c2-013111311ae6",
+    "type": "ComponentsJavascriptParameter",
+    "typeDesc": "Custom parameter",
+    "parent": "GENERIC",
+    "properties": [
+     {
+      "name": "name",
+      "value": "PARAM_USER_DETAILS",
+      "type": "Id"
+     },
+     {
+      "name": "javaScript",
+      "value": "{\n    DOB:\"2014-01-01\"\n}",
+      "type": "JavaScript"
+     },
+     {
+      "name": "parameterViewRole",
+      "value": "unused",
+      "type": "parameterViewRoleCustom"
+     },
+     {
+      "name": "bookmarkable",
+      "value": "false",
+      "type": "Boolean"
+     }
+    ]
+   },
+   {
+    "id": "d3d5987b-1eab-364f-857c-0720b8584354",
+    "type": "ComponentsParameter",
+    "typeDesc": "Simple parameter",
+    "parent": "GENERIC",
+    "properties": [
+     {
+      "name": "name",
+      "value": "PARAM_UPDATE",
+      "type": "Id"
+     },
+     {
+      "name": "propertyValue",
+      "value": "1",
+      "type": "String"
+     },
+     {
+      "name": "parameterViewRole",
+      "value": "unused",
+      "type": "parameterViewRoleCustom"
+     },
+     {
+      "name": "bookmarkable",
+      "value": "false",
+      "type": "Boolean"
+     }
+    ]
+   },
+   {
+    "id": "OTHERCOMPONENTS",
+    "name": "Others",
+    "type": "Label",
+    "typeDesc": "<i>Group</i>",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "Group",
+      "value": "Others",
+      "type": "Label"
+     }
+    ]
+   },
+   {
+    "id": "ab7c804a-51da-9d5f-10d1-82124b82ce86",
+    "type": "ComponentsQuery",
+    "typeDesc": "Query Component",
+    "parent": "OTHERCOMPONENTS",
+    "properties": [
+     {
+      "name": "name",
+      "value": "getUserDetails",
+      "type": "Id"
+     },
+     {
+      "name": "listeners",
+      "value": "[]",
+      "type": "Listeners"
+     },
+     {
+      "name": "parameters",
+      "value": "[]",
+      "type": "ValuesArray"
+     },
+     {
+      "name": "resultvar",
+      "value": "",
+      "type": "Result"
+     },
+     {
+      "name": "dataSource",
+      "value": "getUserDetails",
+      "type": "Datasource"
+     },
+     {
+      "name": "refreshPeriod",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "priority",
+      "value": 5,
+      "type": "Integer"
+     },
+     {
+      "name": "htmlObject",
+      "value": "",
+      "type": "HtmlObject"
+     },
+     {
+      "name": "executeAtStart",
+      "value": "true",
+      "type": "Boolean"
+     },
+     {
+      "name": "preExecution",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postExecution",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postFetch",
+      "value": "function d(data){\n    \n    var obj = {};\n    $.each(data.resultset, function(i,v){\n        \n        \n        \n        if(!v[5]){\n            v[5] = \"1970-01-01\"\n        }\n \n        obj = {\n            TITLE:v[1],\n            FIRSTNAME:v[2],\n            LASTNAME:v[3],\n            EMAIL:v[4],\n            DOB:v[5],\n            PHONE:v[6],\n            MOBILE:v[7],\n            GENDER:v[8]\n        }\n        \n        \n    });\n    \n    \n    \n    console.log(obj)\n    \n    Dashboards.fireChange(\"PARAM_USER_DETAILS\",obj);\n}",
+      "type": "JavaScript"
+     },
+     {
+      "name": "preChange",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postChange",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "tooltip",
+      "value": "",
+      "type": "Html"
+     }
+    ]
+   },
+   {
+    "id": "395b2913-e531-7a04-976b-2e90bec8cec3",
+    "type": "ComponentsQuery",
+    "typeDesc": "Query Component",
+    "parent": "OTHERCOMPONENTS",
+    "properties": [
+     {
+      "name": "name",
+      "value": "putUserDetails",
+      "type": "Id"
+     },
+     {
+      "name": "listeners",
+      "value": "['${p:PARAM_UPDATE}']",
+      "type": "Listeners"
+     },
+     {
+      "name": "parameters",
+      "value": "[[\"TITLE\",\"PARAM_USER_DETAILS.TITLE\"],[\"FIRSTNAME\",\"PARAM_USER_DETAILS.FIRSTNAME\"],[\"LASTNAME\",\"PARAM_USER_DETAILS.LASTNAME\"],[\"DOB\",\"PARAM_USER_DETAILS.DOB\"],[\"EMAIL\",\"PARAM_USER_DETAILS.EMAIL\"],[\"PHONE\",\"PARAM_USER_DETAILS.PHONE\"],[\"MOBILE\",\"PARAM_USER_DETAILS.MOBILE\"],[\"GENDER\",\"PARAM_USER_DETAILS.GENDER\"]]",
+      "type": "ValuesArray"
+     },
+     {
+      "name": "resultvar",
+      "value": "",
+      "type": "Result"
+     },
+     {
+      "name": "dataSource",
+      "value": "putUserDetails",
+      "type": "Datasource"
+     },
+     {
+      "name": "refreshPeriod",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "priority",
+      "value": 5,
+      "type": "Integer"
+     },
+     {
+      "name": "htmlObject",
+      "value": "",
+      "type": "HtmlObject"
+     },
+     {
+      "name": "executeAtStart",
+      "value": "false",
+      "type": "Boolean"
+     },
+     {
+      "name": "preExecution",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postExecution",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postFetch",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "preChange",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postChange",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "tooltip",
+      "value": "",
+      "type": "Html"
+     }
+    ]
+   },
+   {
+    "id": "66c452cc-0ff3-8729-99fb-1aca5779bb51",
+    "type": "ComponentstextComponent",
+    "typeDesc": "Text Component",
+    "parent": "OTHERCOMPONENTS",
+    "properties": [
+     {
+      "name": "name",
+      "value": "TEXT_LOGGED_USER",
+      "type": "Id"
+     },
+     {
+      "name": "listeners",
+      "value": "[]",
+      "type": "Listeners"
+     },
+     {
+      "name": "expression",
+      "value": "function(){\n    return \"<h2>Logged in as \"+Dashboards.context.user+\"</h2>\";    \n}",
+      "type": "JavaScript"
+     },
+     {
+      "name": "priority",
+      "value": 5,
+      "type": "Integer"
+     },
+     {
+      "name": "refreshPeriod",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "htmlObject",
+      "value": "loggedUser",
+      "type": "HtmlObject"
+     },
+     {
+      "name": "executeAtStart",
+      "value": "true",
+      "type": "Boolean"
+     },
+     {
+      "name": "preExecution",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postExecution",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "tooltip",
+      "value": "",
+      "type": "Html"
+     }
+    ]
+   },
+   {
+    "id": "IVYISBOOTSTRAP",
+    "name": "Ivy IS Bootstrap",
+    "type": "Label",
+    "typeDesc": "<i>Group</i>",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "Group",
+      "value": "Ivy IS Bootstrap",
+      "type": "Label"
+     }
+    ]
+   },
+   {
+    "id": "0ea69bb8-0ccd-e018-94a9-7184c87715bd",
+    "type": "ComponentsBSSelectBaseComponent",
+    "typeDesc": "Bootstrap Select",
+    "parent": "IVYISBOOTSTRAP",
+    "properties": [
+     {
+      "name": "name",
+      "value": "SELECT_TITLE",
+      "type": "Id"
+     },
+     {
+      "name": "parameter",
+      "value": "PARAM_USER_DETAILS.TITLE",
+      "type": "Parameter"
+     },
+     {
+      "name": "listeners",
+      "value": "['${p:PARAM_USER_DETAILS}']",
+      "type": "Listeners"
+     },
+     {
+      "name": "parameters",
+      "value": "[]",
+      "type": "ValuesArray"
+     },
+     {
+      "name": "valueAsId",
+      "value": "true",
+      "type": "Boolean"
+     },
+     {
+      "name": "dataSource",
+      "value": "",
+      "type": "Datasource"
+     },
+     {
+      "name": "valuesArray",
+      "value": "[[\"Mr\",\"Mr\"],[\"Mrs\",\"Mrs\"],[\"Miss\",\"Miss\"]]",
+      "type": "ValuesArray"
+     },
+     {
+      "name": "priority",
+      "value": 5,
+      "type": "Integer"
+     },
+     {
+      "name": "refreshPeriod",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "buttonLiveSearch",
+      "value": "false",
+      "type": "Boolean"
+     },
+     {
+      "name": "buttonBlock",
+      "value": "true",
+      "type": "Boolean"
+     },
+     {
+      "name": "itemsSize",
+      "value": "false",
+      "type": "String"
+     },
+     {
+      "name": "buttonType",
+      "value": "btn-default",
+      "type": "buttonTypeCustom"
+     },
+     {
+      "name": "buttonSize",
+      "value": "",
+      "type": "buttonSizeCustom"
+     },
+     {
+      "name": "prependIcon",
+      "value": "False",
+      "type": "Boolean"
+     },
+     {
+      "name": "buttonIcon",
+      "value": "none",
+      "type": "buttonIconCustom"
+     },
+     {
+      "name": "htmlObject",
+      "value": "TITLE",
+      "type": "HtmlObject"
+     },
+     {
+      "name": "executeAtStart",
+      "value": "true",
+      "type": "Boolean"
+     },
+     {
+      "name": "preExecution",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postExecution",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postFetch",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "preChange",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postChange",
+      "value": "",
+      "type": "JavaScript"
+     }
+    ]
+   },
+   {
+    "id": "7c86764d-50e5-4ac1-f0af-d026ab81fcea",
+    "type": "ComponentsBSInputComponent",
+    "typeDesc": "Bootstrap Input",
+    "parent": "IVYISBOOTSTRAP",
+    "properties": [
+     {
+      "name": "name",
+      "value": "INPUT_FIRSTNAME",
+      "type": "Id"
+     },
+     {
+      "name": "parameter",
+      "value": "PARAM_USER_DETAILS.FIRSTNAME",
+      "type": "Parameter"
+     },
+     {
+      "name": "listeners",
+      "value": "['${p:PARAM_USER_DETAILS}']",
+      "type": "Listeners"
+     },
+     {
+      "name": "priority",
+      "value": 5,
+      "type": "Integer"
+     },
+     {
+      "name": "inputType",
+      "value": "text",
+      "type": "inputTypeCustom"
+     },
+     {
+      "name": "inputSize",
+      "value": "",
+      "type": "inputSizeCustom"
+     },
+     {
+      "name": "htmlObject",
+      "value": "FIRSTNAME",
+      "type": "HtmlObject"
+     },
+     {
+      "name": "executeAtStart",
+      "value": "true",
+      "type": "Boolean"
+     },
+     {
+      "name": "preExecution",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postExecution",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "preChange",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postChange",
+      "value": "",
+      "type": "JavaScript"
+     }
+    ]
+   },
+   {
+    "id": "58a6c271-1c88-bdbf-e653-7f5a77521794",
+    "type": "ComponentsBSInputComponent",
+    "typeDesc": "Bootstrap Input",
+    "parent": "IVYISBOOTSTRAP",
+    "properties": [
+     {
+      "name": "name",
+      "value": "INPUT_LASTNAME",
+      "type": "Id"
+     },
+     {
+      "name": "parameter",
+      "value": "PARAM_USER_DETAILS.LASTNAME",
+      "type": "Parameter"
+     },
+     {
+      "name": "listeners",
+      "value": "['${p:PARAM_USER_DETAILS}']",
+      "type": "Listeners"
+     },
+     {
+      "name": "priority",
+      "value": 5,
+      "type": "Integer"
+     },
+     {
+      "name": "inputType",
+      "value": "text",
+      "type": "inputTypeCustom"
+     },
+     {
+      "name": "inputSize",
+      "value": "",
+      "type": "inputSizeCustom"
+     },
+     {
+      "name": "htmlObject",
+      "value": "LASTNAME",
+      "type": "HtmlObject"
+     },
+     {
+      "name": "executeAtStart",
+      "value": "true",
+      "type": "Boolean"
+     },
+     {
+      "name": "preExecution",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postExecution",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "preChange",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postChange",
+      "value": "",
+      "type": "JavaScript"
+     }
+    ]
+   },
+   {
+    "id": "4bd8be6c-3011-2289-2250-39f1d4e267c9",
+    "type": "ComponentsBSSelectBaseComponent",
+    "typeDesc": "Bootstrap Select",
+    "parent": "IVYISBOOTSTRAP",
+    "properties": [
+     {
+      "name": "name",
+      "value": "SELECT_GENDER",
+      "type": "Id"
+     },
+     {
+      "name": "parameter",
+      "value": "PARAM_USER_DETAILS.GENDER",
+      "type": "Parameter"
+     },
+     {
+      "name": "listeners",
+      "value": "['${p:PARAM_USER_DETAILS}']",
+      "type": "Listeners"
+     },
+     {
+      "name": "parameters",
+      "value": "[]",
+      "type": "ValuesArray"
+     },
+     {
+      "name": "valueAsId",
+      "value": "true",
+      "type": "Boolean"
+     },
+     {
+      "name": "dataSource",
+      "value": "",
+      "type": "Datasource"
+     },
+     {
+      "name": "valuesArray",
+      "value": "[[\"Male\",\"Male\"],[\"Female\",\"Female\"]]",
+      "type": "ValuesArray"
+     },
+     {
+      "name": "priority",
+      "value": 5,
+      "type": "Integer"
+     },
+     {
+      "name": "refreshPeriod",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "buttonLiveSearch",
+      "value": "false",
+      "type": "Boolean"
+     },
+     {
+      "name": "buttonBlock",
+      "value": "true",
+      "type": "Boolean"
+     },
+     {
+      "name": "itemsSize",
+      "value": "false",
+      "type": "String"
+     },
+     {
+      "name": "buttonType",
+      "value": "btn-default",
+      "type": "buttonTypeCustom"
+     },
+     {
+      "name": "buttonSize",
+      "value": "",
+      "type": "buttonSizeCustom"
+     },
+     {
+      "name": "prependIcon",
+      "value": "False",
+      "type": "Boolean"
+     },
+     {
+      "name": "buttonIcon",
+      "value": "none",
+      "type": "buttonIconCustom"
+     },
+     {
+      "name": "htmlObject",
+      "value": "GENDER",
+      "type": "HtmlObject"
+     },
+     {
+      "name": "executeAtStart",
+      "value": "true",
+      "type": "Boolean"
+     },
+     {
+      "name": "preExecution",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postExecution",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postFetch",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "preChange",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postChange",
+      "value": "",
+      "type": "JavaScript"
+     }
+    ]
+   },
+   {
+    "id": "dc5f0a25-5877-88eb-26b5-03c2454d9e39",
+    "type": "ComponentsBSInputComponent",
+    "typeDesc": "Bootstrap Input",
+    "parent": "IVYISBOOTSTRAP",
+    "properties": [
+     {
+      "name": "name",
+      "value": "INPUT_EMAIL",
+      "type": "Id"
+     },
+     {
+      "name": "parameter",
+      "value": "PARAM_USER_DETAILS.EMAIL",
+      "type": "Parameter"
+     },
+     {
+      "name": "listeners",
+      "value": "['${p:PARAM_USER_DETAILS}']",
+      "type": "Listeners"
+     },
+     {
+      "name": "priority",
+      "value": 5,
+      "type": "Integer"
+     },
+     {
+      "name": "inputType",
+      "value": "text",
+      "type": "inputTypeCustom"
+     },
+     {
+      "name": "inputSize",
+      "value": "",
+      "type": "inputSizeCustom"
+     },
+     {
+      "name": "htmlObject",
+      "value": "EMAIL",
+      "type": "HtmlObject"
+     },
+     {
+      "name": "executeAtStart",
+      "value": "true",
+      "type": "Boolean"
+     },
+     {
+      "name": "preExecution",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postExecution",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "preChange",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postChange",
+      "value": "",
+      "type": "JavaScript"
+     }
+    ]
+   },
+   {
+    "id": "5686f2ea-08c9-56e4-2ad7-f4b1da026cfb",
+    "type": "ComponentsBSInputComponent",
+    "typeDesc": "Bootstrap Input",
+    "parent": "IVYISBOOTSTRAP",
+    "properties": [
+     {
+      "name": "name",
+      "value": "INPUT_PHONE",
+      "type": "Id"
+     },
+     {
+      "name": "parameter",
+      "value": "PARAM_USER_DETAILS.PHONE",
+      "type": "Parameter"
+     },
+     {
+      "name": "listeners",
+      "value": "['${p:PARAM_USER_DETAILS}']",
+      "type": "Listeners"
+     },
+     {
+      "name": "priority",
+      "value": 5,
+      "type": "Integer"
+     },
+     {
+      "name": "inputType",
+      "value": "text",
+      "type": "inputTypeCustom"
+     },
+     {
+      "name": "inputSize",
+      "value": "",
+      "type": "inputSizeCustom"
+     },
+     {
+      "name": "htmlObject",
+      "value": "PHONE",
+      "type": "HtmlObject"
+     },
+     {
+      "name": "executeAtStart",
+      "value": "true",
+      "type": "Boolean"
+     },
+     {
+      "name": "preExecution",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postExecution",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "preChange",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postChange",
+      "value": "",
+      "type": "JavaScript"
+     }
+    ]
+   },
+   {
+    "id": "ef9fe951-2180-728e-d325-63f50db43913",
+    "type": "ComponentsBSInputComponent",
+    "typeDesc": "Bootstrap Input",
+    "parent": "IVYISBOOTSTRAP",
+    "properties": [
+     {
+      "name": "name",
+      "value": "INPUT_MOBILE",
+      "type": "Id"
+     },
+     {
+      "name": "parameter",
+      "value": "PARAM_USER_DETAILS.MOBILE",
+      "type": "Parameter"
+     },
+     {
+      "name": "listeners",
+      "value": "['${p:PARAM_USER_DETAILS}']",
+      "type": "Listeners"
+     },
+     {
+      "name": "priority",
+      "value": 5,
+      "type": "Integer"
+     },
+     {
+      "name": "inputType",
+      "value": "text",
+      "type": "inputTypeCustom"
+     },
+     {
+      "name": "inputSize",
+      "value": "",
+      "type": "inputSizeCustom"
+     },
+     {
+      "name": "htmlObject",
+      "value": "MOBILE",
+      "type": "HtmlObject"
+     },
+     {
+      "name": "executeAtStart",
+      "value": "true",
+      "type": "Boolean"
+     },
+     {
+      "name": "preExecution",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postExecution",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "preChange",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postChange",
+      "value": "",
+      "type": "JavaScript"
+     }
+    ]
+   },
+   {
+    "id": "1b8ef6d9-bee7-ab5a-1854-b39b118329b7",
+    "type": "ComponentsBSButtonComponent",
+    "typeDesc": "Bootstrap Button",
+    "parent": "IVYISBOOTSTRAP",
+    "properties": [
+     {
+      "name": "name",
+      "value": "BUTTON_UPDATE",
+      "type": "Id"
+     },
+     {
+      "name": "label",
+      "value": "Update",
+      "type": "String"
+     },
+     {
+      "name": "listeners",
+      "value": "[]",
+      "type": "Listeners"
+     },
+     {
+      "name": "expression",
+      "value": "function d(){\n    Dashboards.fireChange(\"PARAM_UPDATE\",1);    \n}",
+      "type": "JavaScript"
+     },
+     {
+      "name": "priority",
+      "value": 5,
+      "type": "Integer"
+     },
+     {
+      "name": "refreshPeriod",
+      "value": "",
+      "type": "Integer"
+     },
+     {
+      "name": "buttonType",
+      "value": "btn-primary",
+      "type": "buttonTypeCustom"
+     },
+     {
+      "name": "buttonBlock",
+      "value": "true",
+      "type": "Boolean"
+     },
+     {
+      "name": "buttonSize",
+      "value": "",
+      "type": "buttonSizeCustom"
+     },
+     {
+      "name": "prependIcon",
+      "value": "false",
+      "type": "Boolean"
+     },
+     {
+      "name": "buttonIcon",
+      "value": "",
+      "type": "buttonIconCustom"
+     },
+     {
+      "name": "htmlObject",
+      "value": "UPDATE",
+      "type": "HtmlObject"
+     },
+     {
+      "name": "executeAtStart",
+      "value": "true",
+      "type": "Boolean"
+     },
+     {
+      "name": "preExecution",
+      "value": "",
+      "type": "JavaScript"
+     },
+     {
+      "name": "postExecution",
+      "value": "",
+      "type": "JavaScript"
+     }
+    ]
+   }
+  ]
+ },
+ "datasources": {
+  "rows": [
+   {
+    "id": "IVYUD_CPKENDPOINTS",
+    "name": "IVYUD Endpoints",
+    "type": "Label",
+    "typeDesc": "<i>Group</i>",
+    "parent": "UnIqEiD",
+    "properties": [
+     {
+      "name": "Group",
+      "value": "IVYUD Endpoints",
+      "type": "Label"
+     }
+    ]
+   },
+   {
+    "id": "8c40100e-1e69-a943-bfdd-2cee3dad6614",
+    "type": "ComponentsIvyUD_getUserDetails_CPKENDPOINT",
+    "typeDesc": "getUserDetails Endpoint",
+    "parent": "IVYUD_CPKENDPOINTS",
+    "properties": [
+     {
+      "name": "name",
+      "value": "getUserDetails",
+      "type": "Id"
+     },
+     {
+      "name": "stepName",
+      "value": "OUTPUT",
+      "type": "String"
+     },
+     {
+      "name": "kettleOutput",
+      "value": "Inferred",
+      "type": "kettleOutputCustom"
+     }
+    ],
+    "meta": "CPK",
+    "meta_pluginId": "IvyUD",
+    "meta_endpoint": "getUserDetails"
+   },
+   {
+    "id": "e401e86b-fd1d-33ca-ec1d-906d36221927",
+    "type": "ComponentsIvyUD_putUserDetails_CPKENDPOINT",
+    "typeDesc": "putUserDetails Endpoint",
+    "parent": "IVYUD_CPKENDPOINTS",
+    "properties": [
+     {
+      "name": "name",
+      "value": "putUserDetails",
+      "type": "Id"
+     },
+     {
+      "name": "stepName",
+      "value": "OUTPUT",
+      "type": "String"
+     },
+     {
+      "name": "kettleOutput",
+      "value": "Inferred",
+      "type": "kettleOutputCustom"
+     }
+    ],
+    "meta": "CPK",
+    "meta_pluginId": "IvyUD",
+    "meta_endpoint": "putUserDetails"
+   }
+  ]
+ },
+ "filename": "/system/IvyUD/dashboards/editUser.cdfde"
+}
